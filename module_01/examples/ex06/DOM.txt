@@ -1,0 +1,7 @@
+- document
+  - html
+    - head
+      - title (This is the title of my page)
+    - body
+      - h1 (This is a heading)
+      - p (Lorem ipsum dolor sit amet…)
