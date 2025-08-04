@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Data Representation in HTML Tables</title>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Service Price List
+      </caption>
+      <tr>
+        <th>Service</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Web Design</td>
+        <td>$500</td>
+      </tr>
+      <tr>
+        <td>Graphic Design</td>
+        <td>$300</td>
+      </tr>
+    </table>
+    <br />
+
+    <table border="1" cellpadding="5" cellspacing="5">
+      <caption>
+        Comparative Price Table
+      </caption>
+      <tr>
+        <th rowspan="2">Product</th>
+        <th colspan="2">Price</th>
+      </tr>
+      <tr>
+        <th>Old</th>
+        <th>New</th>
+      </tr>
+      <tr>
+        <td>Product 1</td>
+        <td>$10.00</td>
+        <td>$12.00</td>
+      </tr>
+      <summary>
+        This table shows the old and the new comparative pricing
+      </summary>
+    </table>
+  </body>
+</html>
