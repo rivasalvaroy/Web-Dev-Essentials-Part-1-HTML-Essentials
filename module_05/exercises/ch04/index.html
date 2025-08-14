@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible Web Application</title>
+  </head>
+  <body>
+    <div role="button" aria-disabled="true">[Button]</div>
+    <div role="navigation">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <main role="main">
+      <p>Welcome to our website. Explore our services and contact us.</p>
+    </main>
+
+    <div>
+      <button onclick="toggleMenu()" aria-expanded="false">Toggle Menu</button>
+      <ul>
+        <li>Option 1</li>
+        <li>Option 2</li>
+        <li>Option 3</li>
+      </ul>
+    </div>
+
+    <div aria-hidden="true">
+      This promotional content is not currently relevant.
+    </div>
+  </body>
+</html>
