@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Town Map</title>
+  </head>
+  <body>
+    <h1>Explore Merry Town</h1>
+    <p>Find the red car!</p>
+    <img
+      src="/resources/media/merry-town-6-4.jpg"
+      alt="Interactive image of Merry Town"
+      usemap="#image-map"
+    />
+
+    <map name="image-map">
+      <area
+        target="_self"
+        shape="circle"
+        coords="561,371,43"
+        href="https://example.com/"
+        alt="The Red Car"
+        title="Well done! You've found the red car!"
+      />
+    </map>
+  </body>
+</html>
