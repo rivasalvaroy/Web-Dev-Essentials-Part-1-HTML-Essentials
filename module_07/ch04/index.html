@@ -1,0 +1,34 @@
+<!-- The form is straightforward, inviting users to connect by providing essential fields for their name, email, subject, and a text area for their message. The *required* attribute ensures that the form cannot be submitted without filling out these crucial fields, thus improving form quality and engagement. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Global Adventures Blog</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <p>
+      Got a travel story to share? Questions about our adventures? Drop us a
+      message!
+    </p>
+
+    <form action="/submit-form" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </body>
+</html>
